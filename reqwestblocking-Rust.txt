@@ -1,0 +1,102 @@
+reqwestblocking-Rust
+wasm32-unknown-unknown
+x86_64-unknown-linux-gnu
+Rust
+reqwest
+Module blocking
+Modules
+Structs
+Functions
+In crate reqwest
+
+?
+
+reqwest
+blocking
+source
+```rust
+reqwest::Client
+```
+```rust
+tokio::task::spawn_blocking
+```
+
+
+```rust
+get
+```
+```rust
+Response
+```
+```rust
+Client
+```
+
+```rust
+RequestBuilder
+```
+
+
+multipart
+
+Body
+Client
+ClientBuilder
+Request
+RequestBuilder
+Response
+
+get
+A blocking Client API.
+This requires the optional 
+```rust
+blocking
+``` feature to be enabled.
+For a single request, you can use the 
+```rust
+get
+``` shortcut method.
+Module reqwest::<wbr>blocking<button  ></button>
+reqwest<span >0.11.24</span>
+Module blocking
+In crate reqwest
+Optional
+Making a GET request
+Making POST requests (or setting request bodies)
+Modules
+Structs
+Functions
+And More
+
+Docs.rs
+
+reqwest-0.11.24
+
+
+
+
+
+
+
+
+
+
+
+Platform
+
+Feature flags
+
+0.11.24
+
+source · <button  >[<span>&#x2212;
+Expand description
+let 
+"https://www.rust-lang.org"
+?
+println!
+"body = {:?}"
+let 
+let 
+"http://httpbin.org/post"
+"the exact body that is sent"
+?
